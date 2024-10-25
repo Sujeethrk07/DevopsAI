@@ -13,7 +13,9 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 
   df['loan_int_rate'].fillna(df['loan_int_rate'].mean(), inplace=True)
 Fitting 5 folds for each of 54 candidates, totalling 270 fits
+
 Accuracy: 0.9499476576812352
+
 Classification Report:
               precision    recall  f1-score   support
 
